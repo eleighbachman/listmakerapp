@@ -1,0 +1,134 @@
+body {
+  background-color: #000;
+  padding: 20px;
+  font-family: 'Spectral SC', serif;
+
+
+}
+
+.myHeading {
+  text-align: center;
+  font-family: 'Spectral SC', serif;
+  color: lightgrey;
+}
+
+.myHeading h1 {
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+
+.list {
+
+  padding: 20px;
+  border-radius: 20px;
+  border-top: #2d2d2d solid;
+  max-width: 900px;
+  margin: auto;
+
+
+  background: rgba(169,3,41,1);
+background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(169,3,41,1) 10%, rgba(179,36,69,1) 51%, rgba(109,0,25,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(10%, rgba(169,3,41,1)), color-stop(51%, rgba(179,36,69,1)), color-stop(100%, rgba(109,0,25,1)));
+background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(169,3,41,1) 10%, rgba(179,36,69,1) 51%, rgba(109,0,25,1) 100%);
+background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(169,3,41,1) 10%, rgba(179,36,69,1) 51%, rgba(109,0,25,1) 100%);
+background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(169,3,41,1) 10%, rgba(179,36,69,1) 51%, rgba(109,0,25,1) 100%);
+background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(169,3,41,1) 10%, rgba(179,36,69,1) 51%, rgba(109,0,25,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+}
+
+.list p {
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+
+
+}
+
+.list ol {
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.list li {
+  border-bottom: 2px solid #b32445;
+}
+
+li button:first-child {
+  margin-left: auto;
+
+}
+
+li button {
+  font-size: .75em;
+  padding: .5em .5em;
+  margin: 2px;
+  width: 3em;
+  border-radius: 10px;
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+li button:hover {
+  cursor: pointer;
+  background-color: dimgrey;
+}
+
+
+
+li {
+  padding: .45em .5em;
+  margin-bottom: .35em;
+  display: flex;
+
+}
+
+input {
+  border-radius: 10px;
+  border: 4px solid #fff;
+  font-size: 20px;
+  color: #b32445;
+  font-family: 'Spectral SC', serif;
+}
+
+.addItemButton {
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #2d2d2d;
+  color: #fff;
+  border: 1px solid #2d2d2d;
+  margin-left: 10px;
+  font-family: 'Spectral SC', serif;
+
+}
+
+#errorMsg {
+
+}
+
+.addItemButton:hover {
+  color: #F86190;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .myHeading h1 {
+    font-size: 28px;
+
+  }
+
+  .myHeading p {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+
+  .addItemButton {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Things You Love</title>
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+  <link rel="stylesheet"  href="styles/style.css"/>
+</head>
+<body>
+  <div class="myHeading">
+    <h1>Things that You Love</h1>
+    <p>A List Maker</p>
+  </div>
+
+  <div class="list">
+    <p class="description">
+      Enter something you love, then move up and down to prioritize. Or remove from the list altogether!
+    </p>
+    <ol>
+      <li>
+        Food
+        <button class="up">+</button>
+        <button class="down">-</button>
+        <button class="remove">x</button>
+      </li>
+      <li>
+        Diablo
+        <button class="up">+</button>
+        <button class="down">-</button>
+        <button class="remove">x</button>
+      </li>
+      <li>
+        My Spouse
+        <button class="up">+</button>
+        <button class="down">-</button>
+        <button class="remove">x</button>
+      </li>
+      <li>
+        Dr. Pepper
+        <button class="up">+</button>
+        <button class="down">-</button>
+        <button class="remove">x</button>
+      </li>
+
+    </ol>
+    <input type="text" class="addItemInput" />
+    <button class="addItemButton">Add New List Item</button>
+    <p id="errorMsg">
+
+    </p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
